@@ -1,0 +1,9 @@
+#wCardsID
+{
+	text-align: left;
+}
+#wCardsID1, #wCardsID2, #wCardsID3, #wCardsID4, #wCardsID5, #wCardsID6, #wCardsID7
+{
+	display: inline;
+	padding: 5em;
+}

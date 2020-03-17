@@ -3,16 +3,27 @@
 <head>
 	<title>Cards</title>
 </head>
-	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+	<link rel="stylesheet" type="text/css" href="style.css">
 <body>
-	<div id="YourCards">
-		<img id="wCard1" src="Cards/WhiteCards/demo_wCard1.png" alt="YourCard_1" width="200" height="280">
-		<img id="wCard1" src="Cards/WhiteCards/demo_wCard2.jpg" alt="YourCard_1" width="200" height="280">
-		<img id="wCard1" src="Cards/WhiteCards/demo_wCard1.png" alt="YourCard_1" width="200" height="280">
-		<img id="wCard1" src="Cards/WhiteCards/demo_wCard1.png" alt="YourCard_1" width="200" height="280">
-		<img id="wCard1" src="Cards/WhiteCards/demo_wCard2.jpg" alt="YourCard_1" width="200" height="280">
-		<img id="wCard1" src="Cards/WhiteCards/demo_wCard1.png" alt="YourCard_1" width="200" height="280">
-		<button id="nextWhiteCardButton">Next Card</button>
+	<div id="wCardsID">
+		<div id="wCardsID1">Card 1</div>
+		<div id="wCardsID2">Card 2</div>
+		<div id="wCardsID3">Card 3</div>
+		<div id="wCardsID4">Card 4</div>
+		<div id="wCardsID5">Card 5</div>
+		<div id="wCardsID6">Card 6</div>
+		<div id="wCardsID7">Card 7</div>
+	</div>
+	
+		<!-- <pre>Card1                      Card 2                      Card 3                      Card 4                      Card 5                      Card 6                      Card 7</pre> -->
+		<img id="wCard1" src="Cards/WhiteCards/demo_wCard1.png" alt="YourCard_1" title="Card_1" width="200" height="280">
+		<img id="wCard2" src="Cards/WhiteCards/demo_wCard2.jpg" alt="YourCard_2" title="Card_2" width="200" height="280">
+		<img id="wCard3" src="Cards/WhiteCards/demo_wCard1.png" alt="YourCard_3" title="Card_3" width="200" height="280">
+		<img id="wCard4" src="Cards/WhiteCards/demo_wCard1.png" alt="YourCard_4" title="Card_4" width="200" height="280">
+		<img id="wCard5" src="Cards/WhiteCards/demo_wCard2.jpg" alt="YourCard_5" title="Card_5" width="200" height="280">
+		<img id="wCard6" src="Cards/WhiteCards/demo_wCard2.jpg" alt="YourCard_6" title="Card_6" width="200" height="280">
+		<img id="wCard7" src="Cards/WhiteCards/demo_wCard2.jpg" alt="YourCard_7" title="Card_7" width="200" height="280">
+		<button id="nextWhiteCardButton" onclick="document.getElementById('wCard2').src = 'https://i.ibb.co/pQ8r6WK/demo-w-Card1.png'">Next Card</button>
 	</div>
 	
 	<div id="BlackCard">
@@ -29,6 +40,9 @@
 	
 	
 
-	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="script.js">
+		document.getElementById('wCard2').src = 'https://i.ibb.co/pQ8r6WK/demo-w-Card1.png';
+		
+	</script>
 </body>
 </html>
